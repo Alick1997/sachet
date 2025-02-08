@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import {Arimo, Martel_Sans} from 'next/font/google'
 import "./globals.css";
 
 const geistSans = localFont({
@@ -12,6 +13,18 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+
+const martel_sans = Martel_Sans({
+    weight: '600',
+    variable: '--font-martel-sans',
+    subsets: ['latin']
+})
+
+const arimo = Arimo({
+  weight: '600',
+  variable: '--font-arimo',
+  subsets: ['latin']
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -26,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${martel_sans.variable} ${arimo.variable} antialiased`}
       >
         {children}
       </body>

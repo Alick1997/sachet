@@ -13,6 +13,10 @@ const config: Config = {
         foreground: "var(--foreground)",
         main:"#32402f"
       },
+      fontFamily: {
+        martelSans: ['var(--font-martel-sans)', "sans-serif"],
+        arimo: ['var(--font-arimo)', "sans-serif"]
+      }
     },
   },
   plugins: [],
