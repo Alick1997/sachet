@@ -8,7 +8,22 @@ const painting = {
     material: "Mixed media, watercolor"
 
 }
-export default function PaintingDetailPage({ params } : { params: { id: string, year: string }}) {
+
+export async function generateStaticParams() {
+    return [
+        { year: "2023", category: "paintings", id: "test" },
+        { year: "2024", category: "paintings", id: "test" },
+        { year: "2025", category: "paintings", id: "test" },
+        { year: "2023", category: "drawings", id: "test" },
+        { year: "2024", category: "drawings", id: "test" },
+        { year: "2025", category: "drawings", id: "test" },
+        { year: "2023", category: "clay", id: "test" },
+        { year: "2024", category: "clay", id: "test" },
+        { year: "2025", category: "clay", id: "test" },
+      ];
+  }
+
+export default function PaintingDetailPage({ params } : { params: { id: string, year: string, category: string }}) {
     return (
         <div className=" h-screen flex flex-col md:flex-none md:grid md:grid-cols-2 lg:grid-cols-3">
             <div className="w-full lg:h-screen my-10 md:my-0 flex justify-center items-center">

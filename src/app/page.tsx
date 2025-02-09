@@ -2,8 +2,8 @@ import Link from "next/link";
 import { HiPencil } from "react-icons/hi2";
 
 const pages = [
-  {title: "PAINTING", url: "/painting"},
-  {title: "DRAWING", url: "/drawing"},
+  {title: "PAINTING", url: "/paintings"},
+  {title: "DRAWING", url: "/drawings"},
   {title: "CLAY", url: "/clay"},
   {title: "FAQ", url: "/faq"},
   {title: "ABOUT THE PEN HOLDER", url: "/about"},

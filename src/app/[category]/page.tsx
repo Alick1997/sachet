@@ -4,6 +4,14 @@ const years = [
     {title: "2024", url: "/painting/2024"},
     {title: "2025", url: "/painting/2025"},
 ]
+export async function generateStaticParams() {
+    return [
+      { category: "paintings" },
+      { category: "drawings" },
+      { category: "clay" },
+    ];
+  }
+
 export default function PaintingLanding({ params }: { params: { category: string} }) {
 
     return(

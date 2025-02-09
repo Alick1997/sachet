@@ -9,6 +9,20 @@ const imgs = [
     '/painting.png'
 ]
 
+export async function generateStaticParams() {
+    return [
+      { year: "2023", category: "paintings" },
+      { year: "2024", category: "paintings" },
+      { year: "2025", category: "paintings" },
+      { year: "2023", category: "drawings" },
+      { year: "2024", category: "drawings" },
+      { year: "2025", category: "drawings" },
+      { year: "2023", category: "clay" },
+      { year: "2024", category: "clay" },
+      { year: "2025", category: "clay" },
+    ];
+  }
+
 export default function PaintingsFromYear({ params }: { params: { year: string, category: string }}) {
     
     return (
