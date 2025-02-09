@@ -24,6 +24,7 @@ export async function generateStaticParams() {
   }
 
 export default function PaintingDetailPage({ params } : { params: { id: string, year: string, category: string }}) {
+    console.log(params.id)
     return (
         <div className=" h-screen flex flex-col md:flex-none md:grid md:grid-cols-2 lg:grid-cols-3">
             <div className="w-full lg:h-screen my-10 md:my-0 flex justify-center items-center">

@@ -18,15 +18,15 @@ const sections = [
     content: (
       <>
         <p className="text-lg text-white max-w-3xl mx-auto text-center leading-loose">
-          "Born in Dominica and now based in Toronto, this mixed-media artist
-          crafts their work with a ‘What if?’ approach—no plans, no clear
+        &quot;Born in Dominica and now based in Toronto, this mixed-media artist
+          crafts their work with a &apos;What if?&apos; approach—no plans, no clear
           images, just the thrill of discovering what happens next. With zero
-          formal training (unless you count high school art class), the artist’s
-          creations are always a surprise, even to them."
+          formal training (unless you count high school art class), the artist&apos;s
+        creations are always a surprise, even to them.&quot;
         </p>
         <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
-          The images tell the artist their stories as they evolve, and there’s
-          an openness to hearing others’ stories about what they see, building a
+          The images tell the artist their stories as they evolve, and there&apos;s
+          an openness to hearing others&apos; stories about what they see, building a
           universe for each narrative as more people contribute.
         </p>
       </>
@@ -41,10 +41,10 @@ const sections = [
           Once upon a Wednesday
         </h2>
         <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
-        Once upon a Wednesday, some decades ago, a creature was born on the small Caribbean Island of Dominica. It was an island just finding its footing as an independent nation in the wake of Colonialism. The island was alive with rushing rivers, calming streams, temperamental seas and inescapable lush green landscapes. It held promise for the future, glowing with the calm vibrancy of its natural surroundings, but it's society still and heavy under the quiet and heavy weight of its recent history.
+        Once upon a Wednesday, some decades ago, a creature was born on the small Caribbean Island of Dominica. It was an island just finding its footing as an independent nation in the wake of Colonialism. The island was alive with rushing rivers, calming streams, temperamental seas and inescapable lush green landscapes. It held promise for the future, glowing with the calm vibrancy of its natural surroundings, but it&apos;s society still and heavy under the quiet and heavy weight of its recent history.
         </p>
         <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
-        The creature small and inquisitive grew into a paradox befitting its surroundings. It was quiet but talkative, cautious but curious. It may have been smart once-at least that's what it was told. It learned quickly, followed instructions, and investigated often. But no matter how sharp its mind, there was always some difficulty in the world's unspoken rules. The creature often found itself stumbling over tasks that had to be completed just so, with steps that seemed arbitrary, yet somehow sacred to everyone else.
+        The creature small and inquisitive grew into a paradox befitting its surroundings. It was quiet but talkative, cautious but curious. It may have been smart once-at least that&apos;s what it was told. It learned quickly, followed instructions, and investigated often. But no matter how sharp its mind, there was always some difficulty in the world&apos;s unspoken rules. The creature often found itself stumbling over tasks that had to be completed just so, with steps that seemed arbitrary, yet somehow sacred to everyone else.
         </p>
       </>
     ),
@@ -59,7 +59,7 @@ const sections = [
         It stumbled often, but still, it persisted. It moved along the beaten and well-intentioned path—the one that promised it would lead to success and the ever-elusive sense of belonging. As the being grew, it became aware. The world was loud. Very loud. Voices, footsteps, flickering lights, and the constant hum of electricity all blended like an endless symphony. The symphony made waves that could be felt on the skin of its physical form, echoing in its little mind. Did everyone feel like this all the time? Surely they did, the being was not special. It was exhausting and distracting, but the being adapted. It just needed something to focus on. So—the being would draw.        
         </p>
         <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
-        The creature small and inquisitive grew into a paradox befitting its surroundings. It was quiet but talkative, cautious but curious. It may have been smart once-at least that's what it was told. It learned quickly, followed instructions, and investigated often. But no matter how sharp its mind, there was always some difficulty in the world's unspoken rules. The creature often found itself stumbling over tasks that had to be completed just so, with steps that seemed arbitrary, yet somehow sacred to everyone else.
+        The creature small and inquisitive grew into a paradox befitting its surroundings. It was quiet but talkative, cautious but curious. It may have been smart once-at least that&apos;s what it was told. It learned quickly, followed instructions, and investigated often. But no matter how sharp its mind, there was always some difficulty in the world&apos;s unspoken rules. The creature often found itself stumbling over tasks that had to be completed just so, with steps that seemed arbitrary, yet somehow sacred to everyone else.
         </p>
       </>
     ),
@@ -79,7 +79,8 @@ const sections = [
     content: (
         <>
             <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
-            Soon, the being learned about subtext. The people around the it were always saying more than the words that they used. The being was confronted with the subtext in its own speech—never what it intended to say and changing from person to person. Every glance, every shift in tone, every unspoken rule was absorbed by the being. It was hard to tell which pieces of information truly mattered, so the being collected them all. Surely, it would be easier to decipher as the being got older and understood more. In the meantime, the being would learn to speak less.            </p>
+            Soon, the being learned about subtext. The people around the it were always saying more than the words that they used. The being was confronted with the subtext in its own speech—never what it intended to say and changing from person to person. Every glance, every shift in tone, every unspoken rule was absorbed by the being. It was hard to tell which pieces of information truly mattered, so the being collected them all. Surely, it would be easier to decipher as the being got older and understood more. In the meantime, the being would learn to speak less.            
+            </p>
             <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
             The being found that it thought in colours and images and that others could not recognize its language. The being found its physical body a hinderance to its mind. If only it could vibrate thoughts, images or emotions to those around it as it wished it could. Nothing would be impossible. But as it could not, the being continued to adapt. It collected words and actions, translated them into colours and images for itself, and then painstakingly converted them back into sounds and syllables for a world that only valued speech. This took additional energy, often more than the being had, but it continued to collect. Education fed its curiosity and would surely teach it the words and methods it needed to communicate. There had to be rules for communication somewhere.            
             </p>
@@ -116,7 +117,7 @@ const sections = [
             The being completed its work, starting with legal studies, moving on to psychology and anthropology, later finding itself in library services; a series haphazard efforts to some, but a logical collection of missing pieces for the being. It made connections and delivered results, that were praised and celebrated—until the moments when it truly mattered.             
             </p>
             <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
-            The being tried in earnest to take its knowledge and its own journey of survival to do what it had always wanted to do—help. It had survived a series life’s unavoidable tragedies—death, illness and loss—heavy, inflexible parts of life, all on its own. First one. Then three. And eventually eleven. These events shaped the being but still, the being accomplished. It struggled, and accomplished, but before it could celebrate, the world had already moved on: “What are you doing next?” The being persisted, though it was never sure why.            
+            The being tried in earnest to take its knowledge and its own journey of survival to do what it had always wanted to do—help. It had survived a series life&apos;s unavoidable tragedies—death, illness and loss—heavy, inflexible parts of life, all on its own. First one. Then three. And eventually eleven. These events shaped the being but still, the being accomplished. It struggled, and accomplished, but before it could celebrate, the world had already moved on: &quot;What are you doing next?&quot; The being persisted, though it was never sure why.            
             </p>
         </>
     ),
@@ -128,10 +129,10 @@ const sections = [
     content: (
         <>
             <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
-            The being found itself in academia, the ultimate environment for the permanently curious. A labyrinth of knowledge as fascinating as it was needlessly complicated. Existing between the life altering unavoidable events and the supposedly natural stresses of being a student, the being wondered: why were things this hard when they didn’t need to be? Life was already difficult enough—surely, the gatekeepers of information didn’t have to make it worse.            
+            The being found itself in academia, the ultimate environment for the permanently curious. A labyrinth of knowledge as fascinating as it was needlessly complicated. Existing between the life altering unavoidable events and the supposedly natural stresses of being a student, the being wondered: why were things this hard when they didn&apos;t need to be? Life was already difficult enough—surely, the gatekeepers of information didn&apos;t have to make it worse.            
             </p>
             <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
-            And so, the being found ambition in its mission to make information more accessible. It had learned how language could shape a person, a society. It’s health. It knew that words could easily build bridges or walls depending on how they were used and interpreted. It worked hard to untangle complex language, translate jargon into clarity without losing the essence of what mattered for itself. It had seen others around it struggle to do the same, so it earned to translate, so it could do what it wished others had done for it and its peers: taking the time, having the patience to make things make sense.            
+            And so, the being found ambition in its mission to make information more accessible. It had learned how language could shape a person, a society. It&apos;s health. It knew that words could easily build bridges or walls depending on how they were used and interpreted. It worked hard to untangle complex language, translate jargon into clarity without losing the essence of what mattered for itself. It had seen others around it struggle to do the same, so it earned to translate, so it could do what it wished others had done for it and its peers: taking the time, having the patience to make things make sense.            
             </p>
         </>
     ),
@@ -172,7 +173,7 @@ const sections = [
     content: (
         <>
             <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
-            The being found resistance. At first, it thought it might be a misunderstanding. Words had always been complicated, this was simply a failure to communicate its needs and intentions. Perhaps some unintended subtext was louder than the words it had used. It thought hard, and tried to explain itself, but the resistance was louder and firmer than before. “This is not how things are done.” The being was told. Its goals were labelled, unnecessary, a waste of time. The wrong way. 
+            The being found resistance. At first, it thought it might be a misunderstanding. Words had always been complicated, this was simply a failure to communicate its needs and intentions. Perhaps some unintended subtext was louder than the words it had used. It thought hard, and tried to explain itself, but the resistance was louder and firmer than before. &quot;This is not how things are done.&quot; The being was told. Its goals were labelled, unnecessary, a waste of time. The wrong way. 
             </p>
             <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
             The being however, had been trained well. It did what it had always been taught to do when presented with doubt: find evidence, re-evaluate and try again. It researched. It adjusted. It practiced. It found the words to explain its reasonings. Surely, it thought, resistance would soften when met with proof. When met with visible effort. But soften it did not. The being was encouraged to abandon its goals, those born from empathy and built on hard won understanding of how to navigate its environments. It was asked to set aside what it knew to be valuable and replace it with what would be appropriate, dethatched from the things it cared about and without the meaning it had spent so long searching for.
@@ -185,7 +186,7 @@ const sections = [
   {
     id: 14,
     content: (
-        <h1 className="text-4xl text-white text-center font-semibold">“This is what is best.” The world told the being.{'\n'} And so, the being did as it was told.</h1>
+        <h1 className="text-4xl text-white text-center font-semibold">&quot;This is what is best.&quot; The world told the being. And so, the being did as it was told.</h1>
     ),
     buttonLabel: ">",
     backButtonLabel: "<"
@@ -203,7 +204,7 @@ const sections = [
     content: (
         <>
             <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
-            The being struggled, but it persisted. It always had. This was simply another challenge— “This is just what life is.” it was told. The being pushed forward even as things got heavier, felt harder. Still, the being accomplished and with each accomplishment came more tasks, more assigned goals. More and more and life itself continued around it. And the world became louder.
+            The being struggled, but it persisted. It always had. This was simply another challenge— &quot;This is just what life is.&quot; it was told. The being pushed forward even as things got heavier, felt harder. Still, the being accomplished and with each accomplishment came more tasks, more assigned goals. More and more and life itself continued around it. And the world became louder.
             </p>
         </>
     ),
@@ -223,7 +224,7 @@ const sections = [
     content: (
         <>
             <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
-            Overwhelmed, the being asked for help. Surely, it thought the world would understand having seen all she had done, continued to do. This load was too much for one being. But the world was unyielding: “You are not trying hard enough.” So the being tried harder. It stretched itself thinner and thinner, sacrificing rest, joy, and its own well-being to meet the demands it was told should be manageable. The being turned inward as it had so often had to do, looking for new ways to adapt. Each time it found some small adjustment to make life more bearable, it was discouraged. “This is normal, and you need to try harder. This is how things are done. This is how they have always been done.”
+            Overwhelmed, the being asked for help. Surely, it thought the world would understand having seen all she had done, continued to do. This load was too much for one being. But the world was unyielding: &quot;You are not trying hard enough.&quot; So the being tried harder. It stretched itself thinner and thinner, sacrificing rest, joy, and its own well-being to meet the demands it was told should be manageable. The being turned inward as it had so often had to do, looking for new ways to adapt. Each time it found some small adjustment to make life more bearable, it was discouraged. &quot;This is normal, and you need to try harder. This is how things are done. This is how they have always been done.&quot;
             </p>
             <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
             So, the being tried. It kept trying long after it reserves had run dry. It sought help using new words, new approaches, scripting new ways of explaining what it needed. Why it needed. It made efforts to be present and reciprocate the way it thought was would be appreciated. They did not come naturally, but the being made efforts. Surely, if it could just say the right thing, the right way, things would change. They would see how hard it tried. They would understand. 
@@ -238,7 +239,7 @@ const sections = [
     content: (
         <>
             <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
-            But the world grew tired of the being’s struggle and its patience wore thin. It looked at the being with disdain, “Why can’t you just get it?” It decided the being could not be overwhelmed, exhausted, expressing a genuine need for something different. No, it decided that the being was avoiding its responsibilities. The being was idle and clearly just did not care. It didn’t understand how things worked, how they are supposed to be. The being was simply being difficult. 
+            But the world grew tired of the being&apos;s struggle and its patience wore thin. It looked at the being with disdain, &quot;Why can&apos;t you just get it?&quot; It decided the being could not be overwhelmed, exhausted, expressing a genuine need for something different. No, it decided that the being was avoiding its responsibilities. The being was idle and clearly just did not care. It didn&apos;t understand how things worked, how they are supposed to be. The being was simply being difficult. 
             </p>
             <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
             The being was at a loss. It had bent, stretched, suppressed, forced and changed...adapted to prove its worth. To show that it could succeed in the way the world insisted, to show that it cared. And yet—it found that even those who were supposed to know it best of all, could not, or perhaps would not understand it. It had run out of steam. It had done everything it was supposed to do and more yet somehow it was still not enough.  The being wondered, not for the first time: What if it never would be? 
@@ -276,7 +277,7 @@ const sections = [
     content: (
         <>
             <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
-            The being felt, disoriented. It had done everything it “should” on the path it was told to follow, only to find itself not just broken, but punished for how the universe had built it. It would never be enough. The being retreated into itself.              
+            The being felt, disoriented. It had done everything it &quot;should&quot; on the path it was told to follow, only to find itself not just broken, but punished for how the universe had built it. It would never be enough. The being retreated into itself.              
             </p>
             <h1 className="text-4xl text-white text-center font-semibold">
             It had a decision to make.               
@@ -291,10 +292,10 @@ const sections = [
     content: (
         <>
             <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
-            Life was a choice. The being knew it didn’t have to continue. This was unsustainable, how could it continue? It didn't know what to do, but it did what it always did to ground itself—it drew—and painted.              
+            Life was a choice. The being knew it didn&apos;t have to continue. This was unsustainable, how could it continue? It didn&apos;t know what to do, but it did what it always did to ground itself—it drew—and painted.              
             </p>
             <h1 className="text-4xl text-white text-center font-semibold">
-            "Why should I be here?" it thought.               
+            &quot;Why should I be here?&quot; it thought.               
             </h1>
         </>
     ),
@@ -324,7 +325,7 @@ const sections = [
             The questions swirled, and the being kept drawing. What choice did it have?            
             </p>
             <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
-            The being found itself at zero. Its physical abilities faltered, its energy bled away as from an open wound, it could not think, yet the world’s demands continued: “Just do more.” But the being could not. It could only draw, and paint.
+            The being found itself at zero. Its physical abilities faltered, its energy bled away as from an open wound, it could not think, yet the world&apos;s demands continued: &quot;Just do more.&quot; But the being could not. It could only draw, and paint.
             </p>
         </>
     ),
@@ -336,10 +337,10 @@ const sections = [
     content: (
         <>
             <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
-            It would draw. The being had been taught that this was not enough, but its mind had taken its leave. Perhaps the one thing that had always grounded it, could be the foundation for something new. The being had tried using words and actions, but they always ended up lost in translation leaving the being feeling like an anomaly in its own existence. “Maybe working against yourself isn’t the key to success.” It thought. “You idiot.”
+            It would draw. The being had been taught that this was not enough, but its mind had taken its leave. Perhaps the one thing that had always grounded it, could be the foundation for something new. The being had tried using words and actions, but they always ended up lost in translation leaving the being feeling like an anomaly in its own existence. &quot;Maybe working against yourself isn&apos;t the key to success.&quot; It thought. &quot;You idiot.&quot;
             </p>
             <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
-            What if, the being just let its brain work as it does? Subtext would not matter, there would be no need to translate, and re-translate. The being had no formal training in creation, no rules to follow except the ones it made for itself. It drew its feelings, often without meaning to, letting shapes and colors lead the way. Scenes evolved naturally, the process messy and unpredictable, but honest. Which is all it ever wished it had the safety to be.  “It would be a risk.” thought the being but it would have to try.            
+            What if, the being just let its brain work as it does? Subtext would not matter, there would be no need to translate, and re-translate. The being had no formal training in creation, no rules to follow except the ones it made for itself. It drew its feelings, often without meaning to, letting shapes and colors lead the way. Scenes evolved naturally, the process messy and unpredictable, but honest. Which is all it ever wished it had the safety to be.  &quot;It would be a risk.&quot; thought the being but it would have to try.            
             </p>
         </>
     ),
@@ -351,10 +352,10 @@ const sections = [
     content: (
         <>
             <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
-            It didn’t matter if the interpretations were "wrong"—there was no wrong. It did not matter what its process looked like on the outside. The being had other ways it knew to communicate, asking its favorite question: I know what I see, but what do you see? The being never got the same answer twice, but every conversation was a shared experience of storytelling where everyone took as much or as little as they need. Each piece of art earned its own universe with every new interpretation.
+            It didn&apos;t matter if the interpretations were &quot;wrong&quot;—there was no wrong. It did not matter what its process looked like on the outside. The being had other ways it knew to communicate, asking its favorite question: I know what I see, but what do you see? The being never got the same answer twice, but every conversation was a shared experience of storytelling where everyone took as much or as little as they need. Each piece of art earned its own universe with every new interpretation.
             </p>
             <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
-            "Maybe this is it." thought the being. "Maybe this is how it was meant to be." It knew the world had been nothing but resistance up until now, and it remained realistic, even fearful. But the being persists. It learns and it improves. It finds itself on a journey of trusting its brain’s natural flow, of not forcing things—embracing the unusual and the imperfect. That is all it ever has been. The being does not know why, but it still, persists.            
+            &quot;Maybe this is it.&quot; thought the being. &quot;Maybe this is how it was meant to be.&quot; It knew the world had been nothing but resistance up until now, and it remained realistic, even fearful. But the being persists. It learns and it improves. It finds itself on a journey of trusting its brain&apos;s natural flow, of not forcing things—embracing the unusual and the imperfect. That is all it ever has been. The being does not know why, but it still, persists.            
             </p>
         </>
     ),
@@ -378,7 +379,7 @@ const sections = [
     content: (
         <>
             <h1 className="text-4xl text-white text-center font-semibold">
-            Too Long Didn’t Read (TLDR): {'\n'}
+            Too Long Didn&apos;t Read (TLDR):
             </h1>
             <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
             Turns out the being is neurodiverse. 
