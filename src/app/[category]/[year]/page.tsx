@@ -1,13 +1,6 @@
-import Image from "next/image"
-import Link from "next/link"
-const imgs = [
-    '/painting.png',
-    '/painting.png',
-    '/painting.png',
-    '/painting.png',
-    '/painting.png',
-    '/painting.png'
-]
+import paintings from '../../../data/paintings.json'
+import { notFound } from "next/navigation";
+import ImagesGrid from "./imagesGrid";
 
 export async function generateStaticParams() {
     return [
@@ -24,19 +17,17 @@ export async function generateStaticParams() {
   }
 
 export default function PaintingsFromYear({ params }: { params: { year: string, category: string }}) {
-    
+    const data = paintings.filter(painting=> painting.category.toLocaleLowerCase() === params.category.toLocaleLowerCase() && painting.year === params.year)
+    if(!data || data.length === 0) {
+        notFound()
+    }
+
     return (
-    <div className=" text-3xl flex gap-6 items-center min-h-screen justify-start md:px-10">
-        <span className="border border-white p-6 text-3xl lg:text-5xl">
+    <div className=" text-3xl flex flex-col md:flex-row py-6 gap-6 items-center min-h-screen justify-center md:px-10">
+        <span className="border border-white p-6 text-3xl lg:text-5xl text-white">
             {params.year}
         </span>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 3xl:grid-cols-4 gap-6">
-        {imgs.map((img, indx) => (
-            <Link className=" relative w-60 h-60 border border-white p-10 cursor-pointer hover:scale-105" key = {`${img} ${indx}`} href = {`/${params.category}/${params.year}/test`}>
-                <Image fill className="object-cover"  src={img} alt="test img" />
-            </Link>
-            ))}
-        </div>
+        <ImagesGrid data={data} />
     </div>
     )
 }
