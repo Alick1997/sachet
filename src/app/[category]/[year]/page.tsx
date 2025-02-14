@@ -17,7 +17,7 @@ export async function generateStaticParams() {
   }
 
 export default function PaintingsFromYear({ params }: { params: { year: string, category: string }}) {
-    const data = paintings.filter(painting=> painting.category.toLocaleLowerCase() === params.category.toLocaleLowerCase() && painting.year === params.year)
+    const data = paintings.filter(painting=> painting?.category?.toLowerCase() === params.category?.toLowerCase() && painting.year === params.year)
     if(!data || data.length === 0) {
         notFound()
     }
@@ -27,7 +27,10 @@ export default function PaintingsFromYear({ params }: { params: { year: string, 
         <span className="border border-white p-6 text-3xl lg:text-5xl text-white">
             {params.year}
         </span>
-        <ImagesGrid data={data} />
+       { data && data.length > 0 ?
+        <ImagesGrid data={data} />:
+        <p className='text-center font-bold p-3 text-white'>No results found for {params.category} from {params.year}</p>
+        }
     </div>
     )
 }

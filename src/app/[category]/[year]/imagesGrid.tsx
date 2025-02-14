@@ -24,8 +24,8 @@ export default function ImagesGrid({ data }: { data: Paintings[] }) {
 
     useEffect(() => {
         function updateImagesPerPage() {
-          if (window.innerWidth < 640) {
-            setImagesPerPage(6); // Mobile devices
+          if (window.innerWidth < 448) {
+            setImagesPerPage(4); // Mobile devices
           } else if (window.innerWidth <= 1536) {
             setImagesPerPage(8); // Large screens
           } else {
@@ -40,41 +40,44 @@ export default function ImagesGrid({ data }: { data: Paintings[] }) {
       }, []);
 
     return (
-        <div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6">
-        {activeData.map((val) => (
-            <Link className="relative w-60 h-60 border border-white p-10 cursor-pointer hover:scale-105" key = {val.id} href = {`/${val.category}/${val.year}/${val.id}`}>
-                <Image fill className="object-cover"  src={val.image} alt={val.title} />
-            </Link>
-            ))}
-        </div>
-        {numPages > 1 && (
-        <div className="flex gap-4 mt-6">
-          <button
-            onClick={() => setPage((prev) => Math.max(prev - 1, 1))}
-            disabled={page === 1}
-            className={`px-4 py-2 border border-white text-white ${
-              page === 1 ? "opacity-50 cursor-not-allowed" : "hover:bg-white hover:text-black"
-            }`}
-          >
-            Previous
-          </button>
+        <div className="w-full flex flex-col items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6">
+            {activeData.map((val) => (
+                <Link className="group relative w-60 h-60 border border-white p-10 cursor-pointer hover:scale-105" key = {val.id} href = {`/${val.category.toLowerCase()}/${val.year}/${val.id.toLowerCase()}`}>
+                    <Image fill className="object-cover"  src={val.image} alt={val.title} />
+                    <span className="opacity-75 flex md:hidden md:group-hover:flex text-center text-sm font-bold absolute bottom-0 left-0 p-6 text-white bg-black w-full">
+                        {val.title}
+                    </span>
+                </Link>
+                ))}
+            </div>
+            {numPages > 1 && (
+            <div className="flex gap-4 mt-6">
+            <button
+                onClick={() => setPage((prev) => Math.max(prev - 1, 1))}
+                disabled={page === 1}
+                className={`px-4 py-2 border border-white text-white ${
+                page === 1 ? "opacity-50 cursor-not-allowed" : "hover:bg-white hover:text-black"
+                }`}
+            >
+                Previous
+            </button>
 
-          <span className="text-white">
-            Page {page} of {numPages}
-          </span>
+            <span className="text-white">
+                Page {page} of {numPages}
+            </span>
 
-          <button
-            onClick={() => setPage((prev) => Math.min(prev + 1, numPages))}
-            disabled={page === numPages}
-            className={`px-4 py-2 border border-white text-white ${
-              page === numPages ? "opacity-50 cursor-not-allowed" : "hover:bg-white hover:text-black"
-            }`}
-          >
-            Next
-          </button>
-        </div>
-      )}
+            <button
+                onClick={() => setPage((prev) => Math.min(prev + 1, numPages))}
+                disabled={page === numPages}
+                className={`px-4 py-2 border border-white text-white ${
+                page === numPages ? "opacity-50 cursor-not-allowed" : "hover:bg-white hover:text-black"
+                }`}
+            >
+                Next
+            </button>
+            </div>
+        )}
         </div>
     )
 }

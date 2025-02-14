@@ -4,13 +4,13 @@ import { notFound } from "next/navigation";
 
 export async function generateStaticParams() {
     return paintings.map(val => {
-        return { year: val.year, category: val.category.toLocaleLowerCase(), id: val.id.toLocaleLowerCase() }
+        return { year: val.year, category: val?.category?.toLowerCase(), id: val?.id?.toLowerCase() }
     })
   }
 
 export default function PaintingDetailPage({ params } : { params: { id: string, year: string, category: string }}) {
     
-    const val = paintings.find(painting=> painting.id.toLocaleLowerCase() === params.id.toLocaleLowerCase())
+    const val = paintings.find(painting=> painting?.id?.toLowerCase() === params.id.toLowerCase())
     if(!val) {
         notFound()
     }

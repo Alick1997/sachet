@@ -1,8 +1,8 @@
 import Link from "next/link"
 const years = [
-    {title: "2023", url: "/painting/2023"},
-    {title: "2024", url: "/painting/2024"},
-    {title: "2025", url: "/painting/2025"},
+    {title: "2023", url: "/paintings/2023"},
+    {title: "2024", url: "/paintings/2024"},
+    {title: "2025", url: "/paintings/2025"},
 ]
 export async function generateStaticParams() {
     return [
