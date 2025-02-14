@@ -1,5 +1,4 @@
 import paintings from '../../../data/paintings.json'
-import { notFound } from "next/navigation";
 import ImagesGrid from "./imagesGrid";
 
 export async function generateStaticParams() {
@@ -18,9 +17,6 @@ export async function generateStaticParams() {
 
 export default function PaintingsFromYear({ params }: { params: { year: string, category: string }}) {
     const data = paintings.filter(painting=> painting?.category?.toLowerCase() === params.category?.toLowerCase() && painting.year === params.year)
-    if(!data || data.length === 0) {
-        notFound()
-    }
 
     return (
     <div className=" text-3xl flex flex-col md:flex-row py-6 gap-6 items-center min-h-screen justify-center md:px-10">

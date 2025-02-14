@@ -1,6 +1,5 @@
 import Image from "next/image"
 import paintings from '../../../../data/paintings.json'
-import { notFound } from "next/navigation";
 
 export async function generateStaticParams() {
     return paintings.map(val => {
@@ -11,12 +10,12 @@ export async function generateStaticParams() {
 export default function PaintingDetailPage({ params } : { params: { id: string, year: string, category: string }}) {
     
     const val = paintings.find(painting=> painting?.id?.toLowerCase() === params.id.toLowerCase())
-    if(!val) {
-        notFound()
-    }
 
     return (
-        <div className="h-screen flex flex-col md:flex-none md:grid md:grid-cols-2 lg:grid-cols-3 text-white">
+        <div className="h-screen flex flex-col md:flex-none md:grid md:grid-cols-2 lg:grid-cols-3 text-white px-6">
+            {
+            val ?
+            <>
             <div className="w-full lg:h-screen my-10 md:my-0 flex justify-center items-center">
                 <div className="max-w-lg relative w-60 h-60 lg:h-[500px] lg:w-[500px]">
                     <Image fill className="object-cover" src = {val.image} alt = {val.title} />
@@ -30,6 +29,9 @@ export default function PaintingDetailPage({ params } : { params: { id: string, 
                         <p className="italic">{val.material}</p>
                     </div>
                 </div>
+            </> :
+            <p className='text-center font-bold p-3 text-white'>Looks like this peice does not exist.</p>
+            }
         </div>
     )
 }

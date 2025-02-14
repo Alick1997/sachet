@@ -7,8 +7,6 @@ const years = [
 export async function generateStaticParams() {
     return [
       { category: "paintings" },
-      { category: "drawings" },
-      { category: "clay" },
     ];
   }
 

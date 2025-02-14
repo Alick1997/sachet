@@ -448,5 +448,195 @@
         "image": "/paintings/2023/photo-output_7 3.png",
         "category": "Paintings",
         "year": "2023"
+      },
+      {
+        "id": "extra-terrestrial",
+        "title": "(Extra)Terrestrial",
+        "size": "8 x 20 inches",
+        "description": "Terrestrial and (Extra)Terrestrial are the result of an intuitive journey guided by the positioning of lines that shape a scene as it unfolds. The artist is a passenger in the process allowing the scene to evolve without intention. The result for the artist is a landscape of connections between the earth, sky and ever evolving universe. The observer is invited on this journey and discover their own interpretation within the detail.",
+        "material": "Acrylic",
+        "image": "/paintings/2024/(Extra) Terrestrial.png",
+        "category": "Paintings",
+        "year": "2024"
+      },
+      {
+        "id": "terrestrial",
+        "title": "Terrestrial",
+        "size": "8 x 20 inches",
+        "description": "Terrestrial and (Extra)Terrestrial are the result of an intuitive journey guided by the positioning of lines that shape a scene as it unfolds. The artist is a passenger in the process allowing the scene to evolve without intention. The result for the artist is a landscape of connections between the earth, sky and ever evolving universe. The observer is invited on this journey and discover their own interpretation within the detail.",
+        "material": "Acrylic",
+        "image": "/paintings/2024/Terr estrial.png",
+        "category": "Paintings",
+        "year": "2024"
+      },
+      {
+        "id": "negra-modelo",
+        "title": "Negra Modelo",
+        "size": "12 x 12 inches",
+        "description": "Black is a color of infinite potential, encompassing all shades and absorbing all light. It holds space for every emotion transcending its conventional association with negativity and gloom. Negra Modelo is an experiment in colour using only black and textured techniques to explore the range of beauty and emotion present in the simplicity and depth of a monochromatic palette.",
+        "material": "Acrylic, textured art",
+        "image": "/paintings/2024/Negra Modelo (2024).png",
+        "category": "Paintings",
+        "year": "2024"
+      },
+      {
+        "id": "dreamer",
+        "title": "Dreamer",
+        "size": "12x12 inches",
+        "description": "Stepping deep into nature where the hum of a city begins to fade, soon replaced by the soft calls of birds and the whisper of a gentle breeze. In the quiet, your senses reset—you notice the delicate veins on a leaf, the subtle shift of light through branches, the hidden world within the wild. A reconnection, as if nature had been waiting for you to listen.",
+        "material": "Acrylic",
+        "image": "/paintings/2024/Dreamer.png",
+        "category": "Paintings",
+        "year": "2024"
+      },
+      {
+        "id": "gallery-rejects",
+        "title": "Gallery Rejects",
+        "size": "24 x 24 inch (Four 12 x 12 inch pieces)",
+        "description": "A collection of women dressing for themselves—a bold, defiant expression of self. I imagine them mid-interview for a magazine feature, sharing the why behind what they do, finding strength in their purpose. Unbothered, unfiltered, and unapologetically themselves.",
+        "material": "Acrylic, textured",
+        "image": "/paintings/2024/Gallery Rejects.png",
+        "category": "Paintings",
+        "year": "2024"
+      },
+      {
+        "id": "mood-board-code-green-yellow-orange-red",
+        "title": "Mood Board (Code Green, Yellow, Orange, Red)",
+        "size": "24 x 24 inch (Four 12 x 12 inch pieces)",
+        "description": "A four-scale rating for the days when words fail. How are we doing today? can be answered with just a gesture. The colors shift in meaning—red might signal crisis mode or courage, yellow could be uncertainty or energy. This set is made to adapt, letting your mood decide what each shade means today.",
+        "material": "Acrylic, textured",
+        "image": "/paintings/2024/Mood Board.png",
+        "category": "Paintings",
+        "year": "2024"
+      },
+      {
+        "id": "a-sports-bar",
+        "title": "A Sports Bar",
+        "size": "12x12 and 8x8",
+        "description": "A tale of selective hearing. You are asked to share your interests, and you have—so many! 'Do you like sports?' No, not at all. You know you have plenty in common, yet somehow, every invite leads to the same place—a bar, dinner, and the game. Which game? Who knows, you’re not into sports. It’s loud, a million TVs flicker around you, the food is mediocre at best, the drinks are watered down. How long is a game?",
+        "material": "Mixed media, oil pastel, watercolour, acrylic",
+        "image": "/paintings/2024/The Sports Bar.png",
+        "category": "Paintings",
+        "year": "2024"
+      },
+      {
+        "id": "anarchy-rat",
+        "title": "Anarchy Rat",
+        "size": "10x10 inches",
+        "description": "My Little Anarchy Rat! Using a stencil of one of Banksy's iconic rat paintings, I gave in to his demand for glow-in-the-dark paint. This is one of the few where I had a full image in mind—and it worked! Now he’s out maybe in your city, just doing his part. He’s returning this package humans carelessly dropped off, making sure everyone gets their share of whatever this stuff is.",
+        "material": "Acrylic, glow in the dark paint",
+        "image": "/paintings/2024/Anarchy Rat.png",
+        "category": "Paintings",
+        "year": "2024"
+      },
+      {
+        "id": "retention",
+        "title": "Retention",
+        "size": "12 inches",
+        "description": "A figure stands within the space where she worked to build herself, only to find herself looking out into the wilderness—an expanse of risk and danger, but also the promise of something less traumatizing. It’s a moment of uncertainty, where the unknown holds both fear and hope in equal measure.",
+        "material": "Mixed media, markers, acrylic",
+        "image": "/paintings/2024/Retention.png",
+        "category": "Paintings",
+        "year": "2024"
+      },
+      {
+        "id": "too-many-balls-in-the-air-part-1",
+        "title": "Too Many Balls in the Air (Part I)",
+        "size": "11x14",
+        "description": "Trying to juggle all the tasks at once—never finishing one before another begins, because why not make it as complicated as possible? She’s off balance, like a circus act gone wrong, each task pulling her in a different direction, desperately trying not to drop everything while silently questioning her life choices.",
+        "material": "Mixed media, markers, acrylic",
+        "image": "/paintings/2024/IMG_6849.png",
+        "category": "Paintings",
+        "year": "2024"
+      },
+      {
+        "id": "too-many-balls-in-the-air-part-2",
+        "title": "Too Many Balls in the Air (Part II)",
+        "size": "11x14",
+        "description": "She’s found the perfect balance, but it’s brought her to her knees, and it’ll keep her there to maintain it. The weight of it all is steady, but every moment is a reminder of the effort required to stay upright.",
+        "material": "Mixed media, markers, acrylic",
+        "image": "/paintings/2024/IMG_6850.png",
+        "category": "Paintings",
+        "year": "2024"
+      },
+      {
+        "id": "spoon-theory-1",
+        "title": "Spoon Theory #1",
+        "size": "20x20",
+        "description": "Spoon Theory is a metaphor used to describe the finite energy resources available to individuals living with chronic illnesses or disabilities. Each activity or task requires 'spoons,' and once they are used up, no more energy is available. 'Spoon Theory #1' visually explores the concept of limited energy capturing the overwhelming intensity of overstimulation, juxtaposed with the relentless necessity of enduring it. This work reflects the duality of such experiences—at times unbearable, yet often a routine reality.",
+        "material": "Acrylic paint, spray paint",
+        "image": "/paintings/2024/Spoon Theory 1.png",
+        "category": "Paintings",
+        "year": "2024"
+      },
+      {
+        "id": "spoon-theory-2",
+        "title": "Spoon Theory #2",
+        "size": "20x20",
+        "description": "'Spoon Theory #2' captures the tension between internalized ableism and societal expectations, where the dreamlike haze of running out of 'spoons' meets the stark reality of burnout. Bright neon hues intersect with calming blues and the scars left by pushing past limits to operating on sheer adrenaline.",
+        "material": "Acrylic paint",
+        "image": "/paintings/2024/Spoon Theory 2.png",
+        "category": "Paintings",
+        "year": "2024"
+      },
+      {
+        "id": "acid-green-sunflowers",
+        "title": "Acid Green Sunflowers",
+        "size": "16x20",
+        "description": "One of the first in the textured experiments. It didn’t go exactly as planned, but hey, we don’t need to fill in every white space. Sometimes the unexpected just works.",
+        "material": "Acrylic",
+        "image": "/paintings/2024/photo-output_1 9.png",
+        "category": "Paintings",
+        "year": "2024"
+      },
+      {
+        "id": "self-portrait",
+        "title": "Self-Portrait",
+        "size": "8x20",
+        "description": "",
+        "material": "Acrylic",
+        "image": "/paintings/2024/Self Portrait 2024.png",
+        "category": "Paintings",
+        "year": "2024"
+      },
+      {
+        "id": "tiny-dancer",
+        "title": "Tiny Dancer",
+        "size": "3x3",
+        "description": "",
+        "material": "Acrylic",
+        "image": "/paintings/2024/Tiny Dancers.png",
+        "category": "Paintings",
+        "year": "2024"
+      },
+      {
+        "id": "i-am-afraid-allyship-is-a-myth",
+        "title": "I am Afraid Allyship is a Myth",
+        "size": "12x12 inches",
+        "description": "I Am Afraid Allyship is a Myth—a messy, raw graffiti-style painting that shouts the frustration and disillusionment of misplaced trust. Systems continue to never change with no consequences for those in charge of it.",
+        "material": "Acrylic",
+        "image": "/paintings/2025/I am Afraid.png",
+        "category": "Paintings",
+        "year": "2025"
+      },
+      {
+        "id": "cacti-1",
+        "title": "Cacti #1",
+        "size": "10x10",
+        "description": "",
+        "material": "Acrylic",
+        "image": "/paintings/2025/IMG_6857.png",
+        "category": "Paintings",
+        "year": "2025"
+      },
+      {
+        "id": "ghost",
+        "title": "Ghost",
+        "size": "10x10",
+        "description": "",
+        "material": "Acrylic",
+        "image": "/paintings/2025/photo-output 5.png",
+        "category": "Paintings",
+        "year": "2025"
       }
 ]
