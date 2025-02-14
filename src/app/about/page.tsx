@@ -37,7 +37,7 @@ const sections = [
     content: (
       <>
         <h2 className="text-4xl text-white text-center font-semibold">
-          Once upon a Wednesday
+          A Short Story
         </h2>
         <p className="text-lg text-white max-w-3xl mx-auto text-center mt-4 leading-loose">
         Once upon a Wednesday, some decades ago, a creature was born on the small Caribbean Island of Dominica. It was an island just finding its footing as an independent nation in the wake of Colonialism. The island was alive with rushing rivers, calming streams, temperamental seas and inescapable lush green landscapes. It held promise for the future, glowing with the calm vibrancy of its natural surroundings, but it&apos;s society still and heavy under the quiet and heavy weight of its recent history.

@@ -13,7 +13,7 @@ export default function Home() {
           <div className="text-center bg-white text-black dark:bg-black dark:text-white flex flex-col items-center h-[50vh] px-4 md:p-auto w-full lg:w-1/2 lg:h-screen justify-center">
             <h1 className="text-3xl lg:text-5xl my-4 font-martel-sans">WORDS FOR WEDNESDAY</h1>
             <HiPencil className="text-5xl" />
-            <h2 className="text-2xl lg:text-3xl my-4 font-arimo">LETTING ART SPEAK SO I DONT HAVE TO.</h2>
+            <h2 className="text-2xl lg:text-3xl my-4 font-arimo">LETTING ART SPEAK (SO I DONT HAVE TO).</h2>
           </div>
           <div className="flex flex-col items-center justify-center px-10 h-[50vh] bg-main w-full lg:w-1/2 lg:h-screen gap-4">
             {pages.map((page) => (

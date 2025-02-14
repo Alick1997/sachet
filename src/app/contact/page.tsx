@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FaInstagram } from "react-icons/fa";
 
 export default function Contact() {
     return (
@@ -19,6 +20,13 @@ export default function Contact() {
           className="border border-white text-white px-6 py-3 mt-6 text-xl hover:bg-white hover:text-black transition"
         >
           wfw.arts@gmail.com
+        </a>
+        <a className="flex flex-col gap-2 items-center border border-white text-white px-6 py-3 mt-6 text-xl hover:bg-white hover:text-black transition" href = "https://www.instagram.com/wordsforwednesdayart?igsh=djh1N3R0ZXZodm85&utm_source=qr">
+          <span className="flex gap-2 items-center">
+            Instagram
+            <FaInstagram color="pink"/>
+            </span>
+          @wordsforwednesdayart
         </a>
   
         <p className="text-sm text-gray-400 mt-4">
