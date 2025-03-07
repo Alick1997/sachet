@@ -39,6 +39,10 @@ export default function ImagesGrid({ data }: { data: Paintings[] }) {
         return () => window.removeEventListener("resize", updateImagesPerPage);
       }, []);
 
+      function handleChange(e: React.ChangeEvent<HTMLSelectElement>) {
+        setPage(parseInt(e.currentTarget.value))
+      }
+
     return (
         <div className="w-full flex flex-col items-center">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6">
@@ -62,11 +66,20 @@ export default function ImagesGrid({ data }: { data: Paintings[] }) {
             >
                 Previous
             </button>
-
-            <span className="text-white">
-                Page {page} of {numPages}
-            </span>
-
+            <select
+            value={page}
+            onChange={handleChange}
+            className="px-4 py-2 border border-gray-300 bg-white text-black shadow-md rounded-md text-md"
+            >
+                {[...Array(numPages)].map((_, index) => {
+                    const pageNum = index+1;
+                    return (
+                    <option key={pageNum} value={pageNum}>
+                        Page {pageNum}
+                    </option>
+                    );
+                })}
+            </select>
             <button
                 onClick={() => setPage((prev) => Math.min(prev + 1, numPages))}
                 disabled={page === numPages}
