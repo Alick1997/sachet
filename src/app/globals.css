@@ -14,6 +14,12 @@
   }
 }
 
+p a {
+  color: #2563eb; /* Tailwind blue-600 */
+  text-decoration: underline;
+}
+
+
 body {
   color: var(--foreground);
   background: var(--background);
