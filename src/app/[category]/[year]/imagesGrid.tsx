@@ -44,7 +44,7 @@ export default function ImagesGrid({ data }: { data: Paintings[] }) {
       }
 
     return (
-        <div className="w-full flex flex-col items-center">
+        <div className="w-full flex flex-col items-center pb-24 md:pb-0 md:py-6 max-w-screen">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6">
             {activeData.map((val) => (
                 <Link className="group relative w-60 h-60 border border-white p-10 cursor-pointer hover:scale-105" key = {val.id} href = {`/${val.category.toLowerCase()}/${val.year}/${val.id.toLowerCase()}`}>
@@ -69,7 +69,7 @@ export default function ImagesGrid({ data }: { data: Paintings[] }) {
             <select
             value={page}
             onChange={handleChange}
-            className="px-4 py-2 border border-gray-300 bg-white text-black shadow-md rounded-md text-md"
+            className="px-4 py-2 border border-white hover:bg-white text-black"
             >
                 {[...Array(numPages)].map((_, index) => {
                     const pageNum = index+1;

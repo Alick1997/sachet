@@ -19,7 +19,7 @@ export default function PaintingsFromYear({ params }: { params: { year: string, 
     const data = paintings.filter(painting=> painting?.category?.toLowerCase() === params.category?.toLowerCase() && painting.year === params.year)
 
     return (
-    <div className=" text-3xl flex flex-col md:flex-row py-6 gap-6 items-center min-h-screen justify-center md:px-10">
+    <div className="flex flex-col md:flex-row pt-6 pb-10 gap-6 items-center min-h-screen justify-center md:px-10">
         <span className="border border-white p-6 text-3xl lg:text-5xl text-white">
             {params.year}
         </span>
